@@ -1,0 +1,145 @@
+.product-container {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+
+.product-flex {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 1px solid #000; */
+    margin-top: 12%;
+    
+}
+
+.product-card {
+    /* width: 270px; */
+    padding: 30px 20px;
+    /* height: 300px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-card img {
+    /* width: 90%; */
+    width: 130px;
+    height: 130px;
+}
+
+.product-card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.product-card p:hover {
+    color: rgb(27, 68, 27);
+}
+
+.product-card h2 {
+    font-size: 18px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.product-rating {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    /* height: 500px; */
+    margin: 14px 0;
+    /* border: 1px solid blue; */
+}
+
+.product-rating img {
+    width: 70px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.add-to-cart {
+    font-size: 14px;
+    background-color: green;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px 10px;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.add-to-cart:hover {
+    transition: .4s ease-in-out;
+    background-color: rgb(14, 39, 14);
+}
+
+.added-to-cart {
+    color: rgb(6, 125, 98);
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-left: 8px;
+
+    /* At first, the "Added to cart" message will
+    be invisible. Use JavaScript to change the
+    opacity and make it visible. */
+    opacity: 0;
+}
+
+.added-to-cart img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    
+}
+
+.added-to-cart-visible{
+    opacity: 1;
+}
+
+.input-stepper{
+width: 5rem;
+height: auto;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+margin: 0.5rem 0.5rem;
+padding: 0.2rem;
+gap: 0.2rem;
+border: 1px solid green;
+}
+
+.input-stepper-display{
+}
+
+.fa-plus,
+.fa-minus{
+font-size: 0.7rem;
+font-weight: bolder;
+cursor: pointer;
+color: white;
+
+}
+
+.plus-minus-container{
+width: 1.5rem;
+height: 1rem;
+background-color: green;
+border-radius: 3px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
